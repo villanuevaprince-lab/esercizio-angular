@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './secondo-componente.css',
 })
 export class SecondoComponente {
-
+  name = {
+    second: 'secondo'
+  }
 }
