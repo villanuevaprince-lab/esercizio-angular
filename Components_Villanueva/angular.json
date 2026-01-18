@@ -2,12 +2,11 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "cli": {
-    "packageManager": "npm",
-    "analytics": "baf28de4-2652-4cd6-a8df-c879e6862f4d"
+    "packageManager": "npm"
   },
   "newProjectRoot": "projects",
   "projects": {
-    "Villanueva": {
+    "Components_Villanueva": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -62,10 +61,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Villanueva:build:production"
+              "buildTarget": "Components_Villanueva:build:production"
             },
             "development": {
-              "buildTarget": "Villanueva:build:development"
+              "buildTarget": "Components_Villanueva:build:development"
             }
           },
           "defaultConfiguration": "development"
